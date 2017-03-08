@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".module.news.special.SpecialActivity">
+
+    <!-- 遮挡状态栏透明的部分 -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/toolbar_margin_top"
+        android:background="?attr/colorPrimary"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/toolbar_margin_top">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_news_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/toolbar_height"
+            android:background="@android:color/transparent"
+            app:theme="@style/AppTheme.AppBarOverlay"/>
+
+        <include layout="@layout/layout_common_empty"/>
+    </FrameLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_coping"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:layout_margin="16dp"
+        android:src="@mipmap/ic_arrow_upward"
+        app:layout_behavior="com.dl7.mvp.widget.behavior.ScrollAwareFABBehavior"/>
+</android.support.design.widget.CoordinatorLayout>
+

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#009688</color>
+    <color name="colorPrimaryDark">#009688</color>
+    <color name="colorAccent">#5677fc</color>
+
+    <!--配色-->
+    <color name="toolbar_text">#ffffff</color>
+    <color name="divider_line">#dddddd</color>
+    <color name="window_background">#303030</color>
+    <color name="special_text">#e51c23</color>
+
+    <color name="expanded_title">#607d8b</color>
+    <color name="collapsed_title">#ffffff</color>
+
+    <color name="photo_set_bg">#44000000</color>
+
+    <color name="item_special_bg">#FF4081</color>
+    <color name="item_photo_set_bg">#5677fc</color>
+    <color name="btn_press_bg">#ffbababa</color>
+
+    <color name="download_normal">#666666</color>
+    <color name="download_stop">#f57c00</color>
+    <color name="download_error">#fd4d51</color>
+
+    <color name="item_pressed">#33626262</color>
+    <color name="snackbar_bg">#ccf57c00</color>
+</resources>

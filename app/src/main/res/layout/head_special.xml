@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/iv_banner"
+        android:scaleType="fitXY"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <ViewStub
+        android:id="@+id/vs_digest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout="@layout/layout_digest"/>
+
+    <com.dl7.tag.TagLayout
+        android:id="@+id/tag_layout"
+        android:layout_above="@+id/tv_download"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        style="@style/TagLayout.RandomColor.Arc"
+        app:tag_layout_vertical_interval="10dp"
+        app:tag_layout_horizontal_interval="10dp"
+        app:tag_layout_press_feedback="true"/>
+</LinearLayout>

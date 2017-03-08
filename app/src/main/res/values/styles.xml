@@ -1,0 +1,98 @@
+<resources>
+
+    <style name="BaseTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:fitsSystemWindows">false</item>
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+    <!-- Base application theme. -->
+    <style name="AppBaseTheme" parent="BaseTheme">
+        <!--这是文本的主要颜色，用于工具栏标题-->
+        <!--<item name="android:textColorPrimary">@color/toolbar_text</item>-->
+        <!--这是次文本的主要颜色，用于工具栏次标题-->
+        <!--<item name="android:textColorSecondary">@color/toolbar_text</item>-->
+        <!--分割线颜色-->
+        <!--<item name="android:divider">@color/divider_line</item>-->
+        <!--<item name="android:windowBackground">@color/window_background</item>-->
+        <!--<item name="android:windowIsTranslucent">true</item>-->
+        <!--<item name="android:windowAnimationStyle">@style/slide_right_entry</item>-->
+    </style>
+
+    <style name="SplashTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- 用这张图这样会变形，不知是分辨率问题还是怎么着 -->
+        <!--<item name="android:windowBackground">@mipmap/ic_github</item>-->
+    </style>
+
+    <style name="VideoPlayerTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- 右滑动进入/退出动画 -->
+    <style name="slide_in_right" parent="@android:style/Animation.Translucent">
+        <item name="android:windowEnterAnimation">@anim/slide_right_entry</item>
+        <item name="android:windowExitAnimation">@anim/slide_right_exit</item>
+    </style>
+
+    <style name="news_title">
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Headline</item>
+    </style>
+
+    <style name="news_content">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+    </style>
+
+    <style name="special_text">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/special_text</item>
+    </style>
+
+    <style name="topic_name">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+
+    <style name="photo_main">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="photo_content">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="manage_title">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="manage_sub_title">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="download_progress">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="max">100</item>
+        <item name="progress">0</item>
+        <item name="progress_unreached_color">#CCCCCC</item>
+        <item name="progress_reached_color">#3498DB</item>
+        <item name="progress_text_size">12sp</item>
+        <item name="progress_text_color">#3498DB</item>
+        <item name="progress_reached_bar_height">2dp</item>
+        <item name="progress_unreached_bar_height">1dp</item>
+    </style>
+</resources>
