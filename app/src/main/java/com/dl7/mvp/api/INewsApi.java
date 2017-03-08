@@ -106,7 +106,7 @@ public interface INewsApi {
     Observable<Map<String, List<BeautyPhotoInfo>>> getBeautyPhoto(@Query("offset") int offset);
 
     /**
-     * 获取视频列表
+     * 获取视频列
      * eg: http://c.3g.163.com/nc/video/list/V9LG4B3A0/n/10-10.html
      *
      * @param id  video ID
