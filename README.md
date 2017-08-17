@@ -1,6 +1,6 @@
 # MvpApp
 
-##### 练习MVP架构开发的App，算是对自己学过的知识做一个总结，做了有一段时间。
+##### 练习MVP架构开发的App
 
 ## Screenshot
 
@@ -96,7 +96,5 @@
 	
 Thanks
 ---
-
-- 感谢所有优秀的开源项目
 - [OuNews](https://github.com/oubowu/OuNews)
-	：最初是看了这个项目才开始做的，学了不少东西
+
