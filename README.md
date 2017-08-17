@@ -3,7 +3,7 @@
 ##### 练习MVP架构开发的App
 
 ## Screenshot
-
+![](https://github.com/bayshier/MvpApp-master/blob/master/fenmian.jpg)
 ##### 项目结构：
 
 ![](https://raw.githubusercontent.com/Rukey7/ScreenShot/master/MvpApp/project.png)
